@@ -20,9 +20,15 @@ header .container {
   height: 300px;
 }
 
-#portfolio img {
+main img {
   height: 250px;
   padding: 15px 0;
+}
+
+/* FOOTER  */
+#copyright {
+  height: 100px;
+  line-height: 100px;
 }
 /* DEBUG  */
 
