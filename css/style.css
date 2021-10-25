@@ -4,12 +4,26 @@
   box-sizing: border-box;
 }
 
-/* HEADER  */
-
-header {
-  height: 100px;
+html {
+  font-size: 16px;
 }
 
+/* HEADER  */
+
+header .container {
+  height: 50px;
+}
+
+/* MAIN  */
+
+#avatar {
+  height: 300px;
+}
+
+#portfolio img {
+  height: 250px;
+  padding: 15px 0;
+}
 /* DEBUG  */
 
 .debug header {
@@ -22,7 +36,7 @@ header {
 }
 
 .debug #primo-div {
-  height: 400px;
+  height: 200px;
   background-color: mediumaquamarine;
 }
 

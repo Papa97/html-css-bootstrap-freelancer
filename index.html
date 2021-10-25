@@ -11,103 +11,111 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+      integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Document</title>
   </head>
-  <body class="debug">
+  <body>
     <header>
-      <div class="container">
-        <div class="row justify-content-between">
-          <div class="col">d</div>
-          <div class="col"></div>
+      <div class="container bg-secondary text-white">
+        <div class="row justify-content-between align-items-center">
+          <div class="col text-uppercase">start bootstrap</div>
+          <div class="col text-end"><i class="fas fa-bars"></i></div>
         </div>
       </div>
     </header>
 
     <main>
-      <div class="container-fluid" id="primo-div">
-        <div class="container text-center">
-          <div>img</div>
+      <div class="container text-center bg-success text-white">
+        <div><img src="img/avatar.svg" alt="avatar" id="avatar" /></div>
+        <div>
+          <div class="text-uppercase">start bootstrap</div>
           <div>stella</div>
-          <div>graphic artist - web designer - illustrator</div>
+        </div>
+        <div class="text-uppercase">
+          graphic artist - web designer - illustrator
         </div>
       </div>
 
       <!-- PORTFOLIO -->
 
-      <div class="container-fluid" id="portfolio">
+      <div id="portfolio">
         <div class="container text-center">
           <div>
-            <div>portfolio</div>
+            <div class="text-uppercase">portfolio</div>
             <div>stella</div>
           </div>
+        </div>
+        <div class="container text-center">
           <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
-              <div class="col">img</div>
-              <div class="col">img</div>
-              <div class="col">img</div>
-              <div class="col">img</div>
-              <div class="col">img</div>
-              <div class="col">img</div>
+            <div class="col">
+              <img src="img/cabin.png" class="rounded rounded-3" alt="cabin" />
+            </div>
+            <div class="col"><img src="img/cake.png" alt="cake" /></div>
+            <div class="col"><img src="img/circus.png" alt="circus" /></div>
+            <div class="col"><img src="img/game.png" alt="game" /></div>
+            <div class="col"><img src="img/safe.png" alt="safe" /></div>
+            <div class="col">
+              <img src="img/submarine.png" alt="submarine" />
+            </div>
           </div>
-      
         </div>
       </div>
 
       <!-- ABOUT -->
 
-      <div class="container-fluid" id="about">
-        <div class="container text-center">
-          <div>
-            <div>about</div>
-            <div>stella</div>
-          </div>
-          <div>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Perspiciatis nam aspernatur quam harum sed? Aliquam iusto quas nihil
-            eaque numquam perspiciatis obcaecati minus cumque, placeat hic id
-            veniam beatae totam?
-          </div>
-          <div>bottone</div>
+      <div class="container text-center bg-success text-white">
+        <div>
+          <div class="text-uppercase">about</div>
+          <div>stella</div>
         </div>
+        <div>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          nam aspernatur quam harum sed? Aliquam iusto quas nihil eaque numquam
+          perspiciatis obcaecati minus cumque, placeat hic id veniam beatae
+          totam?
+        </div>
+        <div>bottone</div>
       </div>
 
       <!-- CONTACT ME -->
-      <div class="container-fluid">
-        <div class="container text-center">
-          <div>Contact me</div>
-          <div>stella</div>
-          <div>
-            <div>imputs</div>
-            <div>imputs</div>
-            <div>imputs</div>
-            <div>imputs</div>
-          </div>
-          <div>bottone send</div>
+      <div class="container text-center">
+        <div class="text-uppercase">Contact me</div>
+        <div>stella</div>
+        <div>
+          <div>imputs</div>
+          <div>imputs</div>
+          <div>imputs</div>
+          <div>imputs</div>
         </div>
+        <div>bottone send</div>
       </div>
     </main>
 
     <!-- LOCATION -->
     <footer>
-      <div class="container-fluid">
-        <div class="container text-center">
-          <div class="row row-cols-1 row-cols-md-3">
-              <div class="col">
-                    <div>location</div>
-                    <div>location txt</div>
-             </div>
-              <div class="col">
-                  <div>around the web</div>
-                  <div>icons</div>
-              </div>
-              <div class="col">
-                  <div>about the freelancer</div>
-                  <div>about txt</div>
-              </div>
+      <div class="container text-center bg-secondary text-white">
+        <div class="row row-cols-1 row-cols-md-3">
+          <div class="col">
+            <div class="text-uppercase">location</div>
+            <div>location txt</div>
           </div>
-
-        <div class="text-center">
-            copyright
+          <div class="col">
+            <div class="text-uppercase">around the web</div>
+            <div>icons</div>
+          </div>
+          <div class="col">
+            <div class="text-uppercase">about the freelancer</div>
+            <div>about txt</div>
+          </div>
         </div>
+      </div>
+      <div class="container text-center bg-dark text-white">copyright</div>
     </footer>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
