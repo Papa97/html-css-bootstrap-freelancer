@@ -10,8 +10,8 @@ html {
 
 /* HEADER  */
 
-header .container {
-  height: 50px;
+header {
+  background-color: rgb(3, 15, 46);
 }
 
 /* MAIN  */
@@ -65,4 +65,17 @@ main img {
 
 .debug #about .container {
   background-color: purple;
+}
+
+#cabin_img {
+  border: 1px solid;
+}
+
+.ms_stella-linea {
+  width: 100px;
+  height: 3px;
+}
+
+.ms_input {
+  border: none;
 }
