@@ -22,40 +22,91 @@
   </head>
   <body>
     <header>
-      <div class="container bg-secondary text-white">
-        <div class="row justify-content-between align-items-center">
-          <div class="col text-uppercase">start bootstrap</div>
-          <div class="col text-end"><i class="fas fa-bars"></i></div>
-        </div>
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand text-uppercase" href="#">Start Bootstrap</a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active text-uppercase" aria-current="page" href="#"
+                    >portfolio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-uppercase" href="#">about</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link text-uppercase"
+                    href="#"
+                    id="navbarDropdown"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Contact
+                  </a>
+                </li>
+              </ul>
+              </form>
+            </div>
+          </div>
+        </nav>
       </div>
     </header>
 
     <main>
-      <div class="container text-center bg-success text-white pb-4">
+      <div class="bg-success text-white pb-4">
+      <div class="container text-center ">
         <div><img src="img/avatar.svg" alt="avatar" id="avatar" /></div>
         <div>
           <div class="text-uppercase">start bootstrap</div>
-          <div>stella</div>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="ms_stella-linea bg-light"></div>
+            <div><i class="fas fa-star mx-1"></i></div>
+            <div class="ms_stella-linea bg-light"></div>
+          </div>
         </div>
         <div class="text-uppercase">
           graphic artist - web designer - illustrator
         </div>
       </div>
+    </div>
 
       <!-- PORTFOLIO -->
 
       <div class="container text-center mt-4" id="portfolio">
         <div>
           <div class="text-uppercase">portfolio</div>
-          <div>stella</div>
+
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="ms_stella-linea bg-dark"></div>
+            <div><i class="fas fa-star mx-1"></i></div>
+            <div class="ms_stella-linea bg-dark "></div>
+          </div>
+
         </div>
       </div>
       <div class="container text-center">
         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
           <div class="col">
-            <img src="img/cabin.png" class="rounded rounded-3" alt="cabin" />
+            <img src="img/cabin.png" alt="cabin" />
           </div>
-          <div class="col"><img src="img/cake.png" alt="cake" /></div>
+          <div class="col">
+            <img src="img/cake.png" alt="cake" />
+          </div>
           <div class="col"><img src="img/circus.png" alt="circus" /></div>
           <div class="col"><img src="img/game.png" alt="game" /></div>
           <div class="col"><img src="img/safe.png" alt="safe" /></div>
@@ -66,57 +117,89 @@
       </div>
 
       <!-- ABOUT -->
-
-      <div class="container text-center bg-success text-white mt-3 pt-4">
+    <div class="bg-success text-white mt-3 pt-4">
+      <div class="container text-center ">
         <div>
           <div class="text-uppercase">about</div>
-          <div class="m-2">stella</div>
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="ms_stella-linea bg-light"></div>
+            <div><i class="fas fa-star mx-1"></i></div>
+            <div class="ms_stella-linea bg-light"></div>
+          </div>
         </div>
-        <div>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-          nam aspernatur quam harum sed? Aliquam iusto quas nihil eaque numquam
-          perspiciatis obcaecati minus cumque, placeat hic id veniam beatae
-          totam?
+        <div class="row">
+          <div class="offset-1 col-10 col-md-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet officiis deserunt ratione blanditiis provident, praesentium assumenda atque perspiciatis quam alias ipsum ullam, expedita fugiat id incidunt voluptate, explicabo aliquam ducimus?</div>
+          <div class="offset-1 col-10 offset-md-0 col-md-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum illo quasi eveniet, qui unde, illum repellat recusandae assumenda corporis ducimus dignissimos est necessitatibus aliquid ea praesentium iste. Voluptatum, quaerat beatae.</div>
         </div>
-        <div class="m-4 p-3">bottone</div>
+        <div class="m-4 p-3">
+          <button class="btn btn-outline-light"><i class="fas fa-download"></i> Download</button>
+        </div>
       </div>
-
+    </div>
       <!-- CONTACT ME -->
-      <div class="container text-center">
-        <div class="text-uppercase">Contact me</div>
-        <div class="m-4">stella</div>
-        <div>
-          <div>imputs</div>
-          <div>imputs</div>
-          <div>imputs</div>
-          <div>imputs</div>
+      <div class="container ">
+        <div class="text-uppercase text-center">Contact me</div>
+        <div class="d-flex justify-content-center align-items-center">
+          <div class="ms_stella-linea bg-dark"></div>
+          <div><i class="fas fa-star mx-1"></i></div>
+          <div class="ms_stella-linea bg-dark "></div>
         </div>
-        <div>bottone send</div>
+
+        <div class="row">
+          <div class="offset-3 col-6">
+           <div class="border-bottom py-1 border-secondary">Name <input type="text" class="ms_input"></div>
+           <div class="border-bottom py-1 border-secondary">Email Address <input type="email" class="ms_input">  </div>
+            <div class="border-bottom py-1 border-secondary">Phone Number <input type="tel" class="ms_input">
+            </div>
+            <div class="border-bottom py-1 border-secondary">
+              <div class="form-floating">
+                Message
+              <textarea class="form-control ms_input" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2"></label>
+            </div></div>
+          <button type="button" class="btn btn-success mt-3">Send</button>
+
+          </div>
+        </div>
+        <div> 
+          
+        </div>
       </div>
     </main>
 
     <!-- LOCATION -->
     <footer>
-      <div class="container text-center bg-secondary text-white mt-4 pt-5 pb-4">
+      <div class=" bg-secondary text-white mt-4 pt-5 pb-4">
+      <div class="container text-center">
         <div class="row row-cols-1 row-cols-md-3">
           <div class="col">
             <div class="text-uppercase">location</div>
             <div>location txt</div>
           </div>
-          <div class="col pt-5 pb-4">
+          <div class="col ">
             <div class="text-uppercase">around the web</div>
-            <div>icons</div>
+            <div class="d-flex justify-content-center text">
+              <div class="border border-white rounded rounded-circle mx-1"><i class="fab fa-facebook-f p-2"></i></div>
+              <div class="border border-white rounded rounded-circle mx-1"><i class="fab fa-google-plus-g p-2"></i></div>
+              <div class="border border-white rounded rounded-circle mx-1"><i class="fab fa-twitter p-2"></i></div>
+              <div class="border border-white rounded rounded-circle mx-1"><i class="fab fa-linkedin-in p-2"></i></div>
+            </div>
           </div>
           <div class="col">
             <div class="text-uppercase">about the freelancer</div>
-            <div>about txt</div>
+            <div>about <span class="text-success">Start Bootstrap</span> txt</div>
           </div>
         </div>
       </div>
-      <div class="container text-center bg-dark text-white" id="copyright">
-        Copyright
+    </div>
+
+    <div class="bg-dark text-white">
+      <div class="container text-center" id="copyright">
+        Copyright your website 2019
       </div>
+    </div>
     </footer>
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
