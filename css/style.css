@@ -79,3 +79,7 @@ main img {
 .ms_input {
   border: none;
 }
+
+.ms_color {
+  color: greenyellow;
+}
